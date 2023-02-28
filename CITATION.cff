@@ -1,0 +1,59 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Internet Explorer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ellis
+    name-particle: L
+    family-names: Brown
+    name-suffix: II
+    email: ellisbrown@cmu.edu
+    affiliation: Carnegie Mellon University
+    orcid: 'https://orcid.org/0000-0002-8117-0778'
+  - given-names: Alexander
+    name-particle: C
+    family-names: Li
+    email: alexanderli@cmu.edu
+    affiliation: Carnegie Mellon University
+    orcid: 'https://orcid.org/0000-0002-9884-6383'
+repository-code: 'https://github.com/internet-explorer-ssl/internet-explorer'
+url: 'https://internet-explorer-ssl.github.io'
+abstract: >-
+  Vision models heavily rely on fine-tuning general-purpose
+  models pre-trained on large, static datasets. These
+  general-purpose models only understand knowledge within
+  their pre-training datasets, which are tiny, out-of-date
+  snapshots of the Internet—where billions of images are
+  uploaded each day.
+
+
+  We suggest an alternate approach: rather than hoping our
+  static datasets transfer to our desired tasks after
+  large-scale pre-training, we propose dynamically utilizing
+  the Internet to quickly train a small-scale model that
+  does extremely well on the task at hand. Our approach,
+  called Internet Explorer, explores the web in a
+  self-supervised manner to progressively find relevant
+  examples that improve performance on a desired target
+  dataset. It cycles between searching for images on the
+  Internet with text queries, self-supervised training on
+  downloaded images, determining which images were useful,
+  and prioritizing what to search for next.
+
+
+  We evaluate Internet Explorer across several datasets and
+  show that it outperforms or matches CLIP oracle
+  performance by using just a single GPU desktop to actively
+  query the Internet for 30–40 hours.
+keywords:
+  - Machine Learning
+  - Computer Vision
+  - Self-Supervised Learning
+  - Representation Learning
+  - Online Learning
+license: MIT
