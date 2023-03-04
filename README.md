@@ -8,7 +8,7 @@ Targeted Representation Learning on the Open Web
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv:2302.14051-b31b1b.svg)](https://arxiv.org/abs/2302.14051)
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](http://internet-explorer-ssl.github.io)
-[![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](https://internet-explorer-ssl.github.io/static/videos/internet_explorer.mp4)
+[![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](https://youtu.be/1hYtGZ0CUSA)
 </div>
 
 
